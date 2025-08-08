@@ -2,6 +2,7 @@ import logo from './logo-loading.png';
 import './App.css';
 import Hello from './ component /Hello';
 import Goodbye from './ component /Goodbye';
+import JSXExamples from './ component /JSXExamples';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           4king
         </a>
       </header>
+      <JSXExamples/>
       <Goodbye />
     </div>
 
