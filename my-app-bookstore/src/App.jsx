@@ -12,7 +12,7 @@ import HomePage from './pages/HomePage';
 // import CategoryPage from './pages/CategoryPage';
 // import AboutPage from './pages/AboutPage';
 // import ContactPage from './pages/ContactPage';
-// import NotFound from './components/NotFound';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -38,9 +38,9 @@ function App() {
           
           
           <Route path="/contact" element={<ContactPage />} />
+           */}
           
-          
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       
