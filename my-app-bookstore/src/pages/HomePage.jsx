@@ -1,18 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './HomePage.css'; // ✨ Import from style folder
-// import SearchBar from '../components/SearchBar';
-// import BookCard from '../components/BookCard';
-// import { getFeaturedBooks, getCategories } from '../data/booksData';
-
-const HomePage = () => {
-
-  return (
-    <div className="home-page">
-      {/* Hero Section */}
-      Hello
+import { Link } from "react-router-dom";
+import React from "react";
+import "./styles/HomePage.css";
+const HomePage = () =>{
+ return(
+    <div>
+     <h1>hello</h1>
+     <h1>hello</h1>
+     <h1>hello</h1>
     </div>
-  );
-};
-
+ )
+}
 export default HomePage;

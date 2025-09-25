@@ -7,11 +7,11 @@ import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
-// import BookListPage from './pages/BookListPage';
-// import BookDetailPage from './pages/BookDetailPage';
-// import CategoryPage from './pages/CategoryPage';
-// import AboutPage from './pages/AboutPage';
-// import ContactPage from './pages/ContactPage';
+import BookListPage from './pages/BookListPage';
+import BookDetailPage from './pages/BookDetailPage';
+import CategoryPage from './pages/CategoryPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import NotFound from './components/NotFound';
 
 function App() {
@@ -27,9 +27,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           
          
-          {/* <Route path="/books" element={<BookListPage />} /> */}
+          <Route path="/books" element={<BookListPage />} />
           
-          {/* <Route path="/books/:bookId" element={<BookDetailPage />} />
+          <Route path="/books/:bookId" element={<BookDetailPage />} />
           
           
           <Route path="/category/:categoryId" element={<CategoryPage />} />
@@ -38,7 +38,7 @@ function App() {
           
           
           <Route path="/contact" element={<ContactPage />} />
-           */}
+           
           
           <Route path="*" element={<NotFound />} />
         </Routes>
